@@ -1,0 +1,119 @@
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/bg9.jpg') no-repeat;
+    overflow-y: hidden;
+}
+.left{
+    display: inline-block;
+    color: white;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 30px;
+    top: 8px;
+}
+.mid{
+    display: block;
+    color: white;
+    /* border: 2px solid blue; */
+    width: 44%;
+    margin: 5px auto;
+}
+.right{
+    display: inline-block;
+    color: white;
+    /* border: 2px solid green; */
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+nav li{
+    display: inline;
+    padding: 10px;
+}
+nav li a:hover{
+    text-decoration: underline;
+    color:rgba(141, 6, 6, 0.705);
+    font-weight: bold;
+}
+nav li a.active{
+    color:rgba(141, 6, 6, 0.705);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.left img{
+    width: 40px;
+    filter: invert(100%);
+}
+.left{
+    line-height: 20px;
+    text-align: center;
+    left: 31px;
+}
+.logoName{
+    color: rgb(101, 133, 43);
+    font-weight: bold;
+}
+.btn{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 17px;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 8px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.container{
+    border: 5px solid white;
+    border-style: dashed;
+    width: 48%;
+    margin: 50px 54px;
+    padding: 4px auto;
+    display: block;
+    border-radius: 18px;
+    line-height: 10px;
+}
+.form-details{
+    width: 46%;
+    display: block;
+    margin: 5px auto;
+    padding: 4px;
+    
+}
+.form-details input{
+    font-size: 18px;
+    border: 2px solid rgb(146, 94, 64);
+    border-radius: 12px;
+    padding: 5px 29px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container h1{
+    text-align: center;
+    color:rgb(105, 8, 32)
+}
+.submit{
+    display: block;
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 21%;
+    margin: 18px auto;
+    padding: 9px 5px;
+    font-size: 25px;
+    border: 3px solid rgb(155, 109, 40);
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(110, 52, 14);
+}
+.btn:hover, .submit:hover{
+    background-color: rgb(150, 131, 110);
+    color:rgba(68, 28, 28, 0.705);
+    font-weight: bold;
+}
